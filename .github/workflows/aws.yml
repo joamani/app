@@ -49,9 +49,12 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
 
+    - name: Debug Environment
+    run: env
+
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v1
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v3
