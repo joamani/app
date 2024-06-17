@@ -1,4 +1,4 @@
-# My Flask App
+# webapp
 
 ## Description
 A simple web application that prints the origin public IP of any request in reverse and stores it in a database.
@@ -9,7 +9,7 @@ A simple web application that prints the origin public IP of any request in reve
 - Python 3.9
 - Docker
 - Helm
-- Kubernetes (GKE)
+- Kubernetes (AWS)
 
 ### Running Locally
 
@@ -37,4 +37,4 @@ Set up GitHub Actions with secrets for DockerHub credentials.
 Push to GitHub and the CI/CD pipeline will build, push, and deploy the application.
 
 Access the Deployed Application
-URL: [Your GKE URL]
+URL: [Your AWS URL]
